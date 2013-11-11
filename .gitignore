@@ -1,0 +1,4 @@
+function instructions(){API.chatLog("@Luna! This script is the bestest!",true);
+API.chatLog("I am working",false);
+
+API.on(API.DJ_ADVANCE, function(){setTimeout(function(){ $("#woot").click();},3000)});
