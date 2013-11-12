@@ -1,4 +1,4 @@
-function instructions(){API.chatLog("@Luna! This script is the bestest!",true);
-API.chatLog("I am working",false);
-
-API.on(API.DJ_ADVANCE, function(){setTimeout(function(){ $("#woot").click();},3000)});
+document.getElementById('woot').click(); 
+API.on(API.DJ_ADVANCE, callback); 
+function callback(obj) { 
+document.getElementById('woot').click(); 
